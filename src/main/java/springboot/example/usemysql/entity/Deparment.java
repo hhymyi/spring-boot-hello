@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="deparment")
-public class Deparment {
+public class Deparment implements java.io.Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
